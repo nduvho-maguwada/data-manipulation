@@ -33,10 +33,6 @@ print("\noutliers for math are: \n", df[df["Math_Score"] <= threshold])
 
 print("_________________________")
 
-'''Filter the dataset only to include students who scored above 90 in Mathematics and Science and
-sort them in descending order of their total scores (sum of Mathematics and Science scores). Display
-the first five rows of the filtered dataset.'''
-
 
 math_filtered = df[df["Math_Score"] >= 90]
 print("Students who got above 90 in math: \n", math_filtered)
